@@ -56,7 +56,7 @@ $.fn.extend
         log response.id
         me.submit()
 
-    WebPay.setPublishableKey "<%= WEBPAY_PUBLIC_KEY %>"
+    WebPay.setPublishableKey "{WEBPAY_PUBLIC_KEY}"
     setup_required() if settings.prepare_required
     me.submit setup_form
 
